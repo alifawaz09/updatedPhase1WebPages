@@ -143,17 +143,27 @@ button:hover{
   display: block;
 }
 
+
+
 .movie-section{
   margin-top: 250px;
   margin-left: 100px;
-  width: 30%;
+  width: 475px;
+  border-radius: 5px;
+  border: 1px solid white;
   margin-left: 650px;
+  box-shadow: 1px 5px 20px rgba(1 1 1 / 20%);
+
 }
 
 .bio-section{
   margin-top: 250px;
   margin-left: 100px;
+  height: 255px;
   float: left;
+  border: 1px solid white;
+  box-shadow: 1px 5px 20px rgba(1 1 1 / 20%);
+  border-radius: 5px;
   width: 40%;
 }
 
