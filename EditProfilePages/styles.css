@@ -24,15 +24,19 @@
   position: relative;
 }
 
+.logo {
+  color: #DAA520;
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+}
 
 
 .navigation{
   float: right;
-  list-style: none;
-  margin-top: 25px;
-  margin-right: 50px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  margin-right: 400px;
 }
-
 .navigation li{
   display: inline-block;
 }
@@ -52,19 +56,10 @@
 }
 
 
-
-.logo img{
-  width: 100px;
-  height: auto;
-  mix-blend-mode: multiply;
-  filter: brightness(1.75);
-  float:left;
-}
-
 .content{
   position: absolute;
-  margin-top: 70px;
-  margin-left: 500px;
+  margin-top: 7%;
+  margin-left: 42%;
 }
 
 
@@ -80,9 +75,8 @@
   border-radius: 50%;
   height: 100px;
 }
-.profile-picture a:hover{
 
-}
+
 #togglePassword{
   position: absolute;
   margin-top: 23px;

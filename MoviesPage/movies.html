@@ -1,121 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
 </head>
+
 <body>
 
 
 
-    <header>
-        <a href="#" class="logo">MyMovies</a>
-        <ul class="navigation">
-          <li><a href="#">Home</a></li>
-          <li>
-            <a href="#">Movies</a>
-          </li>
-          <li>
-            <a href="#">Forum</a>
-          </li>
-          <li>
-            <a href="#">Sign in</a>
-          </li>
-          <li>
-            <a href="#">Sign up</a>
-          </li>
-        </ul>
-      </header>
+  <header>
+    <ul class="navigation">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Movies</a></li>
+      <li><a href="#">Forum</a></li>
+      <li><span class="logo">MyMovies</span></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Login</a></li>
+      <li><a href="#">Register</a></li>
+    </ul>
+  </header>
 
 
-      <section class="main">
+  <section class="main">
 
-        <div class="menu">
+    <div class="menu">
 
-            <p>Browse by</p>
-            <div class="dropdown">
-                <button class="dropbtn">Year</button>
-                <div class="dropdown-content">
+      <p>Browse by</p>
+      <div class="dropdown">
+        <button class="dropbtn">Year</button>
+        <div class="dropdown-content">
 
-                    <a href="">All</a>
-                    <a href="">2020s</a>
-                    <a href="">2010s</a>
-                    <a href="">2000s</a>
-                    <a href="">1990s</a>
-
-                </div>
-            </div>
-
-            <div class="dropdown">
-                <button class="dropbtn">Rating</button>
-                <div class="dropdown-content">
-                    <a href="">Highest to lowest</a>
-                    <a href="">Lowest to highest</a>
-                </div>
-            </div>
-
-            <div class="dropdown">
-                <button class="dropbtn">Genre</button>
-                <div class="dropdown-content">
-                    <a href="">Action</a>
-                    <a href="">Adventure</a>
-                    <a href="">Comedy</a>
-                    <a href="">Crime</a>
-                    <a href="">Fantasy</a>
-                    <a href="">Drama</a>
-                    <a href="">Romance</a>
-                    <a href="">Thriller</a>
-                    <a href="">Mystery</a>
-                    <a href="">Sci-Fi</a>
-
-                </div>
-            </div>
-
-            <div class="dropdown">
-                <button class="dropbtn">Coming soon</button>
-
-            </div>
+          <a href="">All</a>
+          <a href="">2020s</a>
+          <a href="">2010s</a>
+          <a href="">2000s</a>
+          <a href="">1990s</a>
 
         </div>
+      </div>
 
-        <div class="movies">
+      <div class="dropdown">
+        <button class="dropbtn">Rating</button>
+        <div class="dropdown-content">
+          <a href="">Highest to lowest</a>
+          <a href="">Lowest to highest</a>
+        </div>
+      </div>
 
-            <div class="movie-card" id="movie-card">
+      <div class="dropdown">
+        <button class="dropbtn">Genre</button>
+        <div class="dropdown-content">
+          <a href="">Action</a>
+          <a href="">Adventure</a>
+          <a href="">Comedy</a>
+          <a href="">Crime</a>
+          <a href="">Fantasy</a>
+          <a href="">Drama</a>
+          <a href="">Romance</a>
+          <a href="">Thriller</a>
+          <a href="">Mystery</a>
+          <a href="">Sci-Fi</a>
 
-                <div class="image">
-                    <a href=""><img src="http://cdn.shopify.com/s/files/1/0037/8008/3782/products/lord_of_the_rings_the_two_towers_NG06275_B_2_framed1-423634.jpg?v=1611688137" alt=""></a>
-                </div>
+        </div>
+      </div>
 
-                <div class="icons">
-                </div>
+      <div class="dropdown">
+        <button class="dropbtn">Coming soon</button>
 
-            </div>
+      </div>
+
+    </div>
+
+    <div class="movies">
+
+      <div class="movie-card" id="movie-card">
+
+        <div class="image">
+          <a href=""><img src="http://cdn.shopify.com/s/files/1/0037/8008/3782/products/lord_of_the_rings_the_two_towers_NG06275_B_2_framed1-423634.jpg?v=1611688137" alt=""></a>
         </div>
 
-        <script type="text/javascript">
-            for(let i = 0; i < 19; i++){
-              var commentDiv = document.querySelector('#movie-card');
-              var divClone = commentDiv.cloneNode(true);
-              divClone.classList.add('movie-card');
+        <div class="icons">
+        </div>
 
-              commentDiv.after(divClone);
-            }
-          </script>
+      </div>
+    </div>
 
-          <footer class = "footer">
-              <p class = "footertitle">CopyRights @ <span>Ali Fawaz</span>  </p>
-              <div class="footerinfo">
-                <a href="#">About us</a>
-                <a href="#">Contact us</a>
-              </div>
-            </footer>
+    <script type="text/javascript">
+      for (let i = 0; i < 19; i++) {
+        var commentDiv = document.querySelector('#movie-card');
+        var divClone = commentDiv.cloneNode(true);
+        divClone.classList.add('movie-card');
 
-      </section>
+        commentDiv.after(divClone);
+      }
+    </script>
+
+    <footer class="footer">
+      <p class="footertitle">CopyRights @ <span>MyMovies</span> </p>
+      <div class="footerinfo">
+        <a href="#">About us</a>
+      </div>
+    </footer>
+
+  </section>
 
 
 
 </body>
+
 </html>

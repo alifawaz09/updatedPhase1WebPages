@@ -27,11 +27,18 @@ header::-webkit-scrollbar {
   border-bottom: 1px solid #778899;
 }
 
+.logo {
+  color: #DAA520;
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+}
+
 
 .navigation{
   float: right;
-  margin-top: 30px;
-  margin-right: 50px;
+  margin-top: 15px;
+  padding-bottom: 20px;
+  margin-right: 400px;
 }
 
 .navigation li{
@@ -97,7 +104,7 @@ header::-webkit-scrollbar {
 
 .profile-activity p{
   margin-right: 20px;
-  padding-right: 40px;  
+  padding-right: 40px;
   width: 70px;
   height: 50px;
   text-align: center;
@@ -146,24 +153,25 @@ button:hover{
 
 
 .movie-section{
+  padding: 10px;
   margin-top: 250px;
-  margin-left: 100px;
   width: 475px;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid white;
-  margin-left: 650px;
+  margin-left: 50%;
   box-shadow: 1px 5px 20px rgba(1 1 1 / 20%);
 
 }
 
 .bio-section{
   margin-top: 250px;
-  margin-left: 100px;
+  padding: 10px;
+  margin-left: 80px;
   height: 255px;
   float: left;
   border: 1px solid white;
   box-shadow: 1px 5px 20px rgba(1 1 1 / 20%);
-  border-radius: 5px;
+  border-radius: 10px;
   width: 40%;
 }
 
