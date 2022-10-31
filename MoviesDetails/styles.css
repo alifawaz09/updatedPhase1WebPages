@@ -1,0 +1,195 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-image: url("https://images.unsplash.com/photo-1523215713844-973398580b09?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80");
+  height: 100vh;
+  -webkit-background-size:cover;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.container{
+  width: 100%;
+  margin: auto;
+  position: absolute;
+  background-color: #3a21077a;
+}
+
+
+.navigation{
+  float: right;
+  list-style: none;
+  margin-top: 30px;
+}
+
+.navigation li{
+  display: inline-block;
+}
+
+.navigation li a{
+  color: #fff;
+  text-decoration: none;
+  padding:5px 20px;
+  font-size: 16px;
+}
+
+.navigation li a:hover{
+  background: #fff;
+  color: #333;
+}
+
+
+
+
+.logo img{
+  width: 100px;
+  height: auto;
+  mix-blend-mode: multiply;
+  filter: brightness(1.75);
+  float:left;
+}
+
+.content-body{
+  display: flex;
+  min-height: 100px;
+  position: absolute;
+  width: 80%;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.content-body h3{
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.profile-picture img{
+  height: 50px;
+}
+
+.profile-info{
+  display: flex;
+}
+
+.name-button button{
+  width: 100%;
+  height: 25px;
+  margin-left: 10px;
+}
+.profile-activity{
+  display: flex;
+}
+.profile-activity p{
+  margin-right: 15px;
+  width: 70px;
+  height: 40px;
+  text-align: center;
+  border-right: 1px solid orange;
+
+}
+.activity-title{
+  margin-right: 10px;
+}
+
+.activity-p{
+  color: orange;
+}
+
+h3, h2{
+  color: orange;
+}
+
+.profile-picture a img{
+  border-radius: 50%;
+}
+
+button{
+  margin-left: 5px;
+  background-color: #523516;
+  margin-top: 10px;
+  padding: 5px 20px;
+  border: none;
+  transition: 0.7s ease;
+}
+button:hover{
+  background-color: #af5a00;
+  transform: scale(1.1);
+}
+
+.br-span{
+
+  display: block;
+
+}
+
+.card{
+  position: absolute;
+  width: 80%;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.card h2{
+  border-bottom: 1px solid orange;
+  width: 50%;
+}
+
+.card-container{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.card-img img{
+  width: 100%;
+}
+
+.card-details {
+  color: #fff;
+  margin: 20px;
+}
+
+.card-details h1 {
+  margin: 20px;
+}
+
+.cards{
+  border: 1px;
+  min-height: 10em;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: 20px;
+  transition: 0.7s ease;
+  display: flex;
+}
+
+.cards:hover{
+  transform: scale(1.05);
+}
+
+.description{
+  padding-bottom: 10px;
+  font-size: 1.3em;
+}
+
+.footer{
+  background-color: #221304;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+}
+.footer-title{
+  font-weight: 600;
+}
+.footerinfo a{
+  padding-left: 10px;
+}
+
+.footertitle span{
+  color: #361201;
+}
