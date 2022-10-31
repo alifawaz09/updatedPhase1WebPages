@@ -24,10 +24,17 @@ header{
   border-bottom: 1px solid #778899;
 }
 
+.logo {
+  color: #DAA520;
+  font-size: 30px;
+  padding: 0px 10px 0px 10px;
+}
+
 .navigation{
   float: right;
-  margin-top: 30px;
-  margin-right: 50px;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 400px;
 }
 
 .navigation li{
@@ -100,8 +107,12 @@ td {
   border-bottom: 1px solid #000;
 }
 
+table tr:nth-of-type(odd) {
+  background-color: #DAA520;
+}
+
 .footer{
-  background-color: #020202;
+  background-color: #000;
   color: white;
   display: flex;
   justify-content: space-between;
@@ -113,5 +124,4 @@ td {
 .footerinfo a{
   text-decoration: none;
   color: #DAA520;
-  padding-left: 10px;
 }
