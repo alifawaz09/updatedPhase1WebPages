@@ -131,7 +131,21 @@ section{
 
 .card:hover{
   transform: scale(1.1);
+  background-color: #DAA520;
 }
+
+.card:hover h3{
+  color : black;
+}
+
+.card:hover p{
+  color : black;
+}
+
+.card:hover .icon{
+  color: black;
+}
+
 
 .description{
   text-align: center;

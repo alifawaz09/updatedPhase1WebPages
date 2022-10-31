@@ -32,7 +32,7 @@ header{
   float: right;
   margin-top: 15px;
   padding-bottom: 20px;
-  margin-right: 400px;
+  margin-right: 25%;
 }
 
 .navigation li{
@@ -144,12 +144,13 @@ button:hover{
   position: absolute;
   width: 80%;
   margin-top: 150px;
-  margin-left: 100px;
+  margin-left: 10%;
 }
 
 .card h2{
   border-bottom: 1px solid orange;
-  width: 50%;
+  width: 100%;
+  text-align: center;
 }
 
 .card-container{
@@ -172,14 +173,12 @@ h1 {
 }
 
 .summary{
-  height: 190px;
+  height: 11em;
   overflow-y: scroll;
 
 }
 
-.summary::-webkit-scrollbar{
-  display: none;
-}
+
 
 .card-details h1 {
   margin: 20px;
@@ -201,7 +200,10 @@ h1 {
   font-size: 1.3em;
 }
 
+
+
 .footer{
+  margin-top: 10%;
   background-color: #000;
   color: white;
   display: flex;

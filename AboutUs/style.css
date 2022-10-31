@@ -13,7 +13,13 @@ header{
   background-size: cover;
   background-position: center center;
   position: relative;
+  overflow-y: scroll;
 }
+
+header::-webkit-scrollbar {
+    display: none;
+  }
+
 
 
 .container{
@@ -57,19 +63,28 @@ header{
 }
 
 
-.logo img{
-  width: 100px;
-  height: auto;
-  mix-blend-mode: multiply;
-  filter: brightness(1.75);
-  float:left;
+.information{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
 }
+
+h3 {
+    color: #e96b00;
+    padding-top: 20px;
+}
+
+.information p {
+    padding: 15px;
+}
+
+
 
 .content{
   width: 92%;
   position: absolute;
   margin-top: 8%;
-  margin-left: 2%;
+  margin-left: 4%;
 
 }
 
@@ -77,46 +92,13 @@ header{
   color: #e96b00;
   padding-bottom: 20px;
   text-align: center;
-}
-
-.table{
-  width: 100%;
-  overflow-y: scroll;
-  height: 500px;
-}
-.table::-webkit-scrollbar {
-  display: none;
-}
-
-#Table{
-  margin-top: 15px;
-  width: 100%;
-  border-collapse: collapse;
-}
-
-th {
-  padding: 15px 240px 20px 15px;
-  text-align: left;
-  font-weight: 500;
-  color: #000;
-  background-color: #DAA520;
-}
-
-td {
-  padding: 15px 200px 20px 15px;
-  text-align: left;
-  vertical-align: middle;
-  font-weight: 300;
-  color: #000;
-  border-bottom: 1px solid #000;
-}
-
-table tr:nth-of-type(odd) {
-  background-color: #DAA520;
+  border-bottom: 1px solid #e96b00;
+  width: 20%;
+  margin-left: 40%;
 }
 
 .footer{
-  margin-top: 5%;
+  margin-top: 10%;
   background-color: #000;
   color: white;
   display: flex;

@@ -38,7 +38,7 @@ header::-webkit-scrollbar {
   float: right;
   margin-top: 15px;
   padding-bottom: 20px;
-  margin-right: 400px;
+  margin-right: 25%;
 }
 
 .navigation li{
@@ -96,7 +96,7 @@ header::-webkit-scrollbar {
   border: 1px solid orange;
   box-shadow: 1px 5px 20px rgba(236, 0, 0, 0.2);
   border-radius: 5px;
-  padding: 0;
+  margin-top: 2%;
   height: 50px;
   width: 490px;
   display: flex;

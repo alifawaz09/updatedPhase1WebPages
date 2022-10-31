@@ -35,7 +35,7 @@
   float: right;
   margin-top: 15px;
   padding-bottom: 20px;
-  margin-right: 400px;
+  margin-right: 25%;
 }
 .navigation li{
   display: inline-block;
@@ -123,6 +123,7 @@
 }
 
 .footer{
+  margin-top: 5%;;
   background-color: #000;
   color: white;
   display: flex;

@@ -31,7 +31,7 @@ header{
 
 .navigation{
   float: right;
-  margin-left: 250px;
+  margin-left: 20%;
   padding-bottom: 5px;
 }
 
@@ -147,6 +147,7 @@ section{
 }
 
 .footer{
+  margin-top: 5%;
   background-color: #020202;
   color: white;
   display: flex;

@@ -35,7 +35,7 @@ header{
   float: right;
   margin-top: 15px;
   padding-bottom: 20px;
-  margin-right: 400px;
+  margin-right: 25%;
 }
 
 .navigation li{
@@ -135,7 +135,10 @@ p{
   height: 100px;
   width: 70%;
   margin-left: 200px;
+
+  
 }
+
 
 textarea{
   background: transparent;
@@ -144,6 +147,7 @@ textarea{
   font-size: 16px;
   color: orange;
   margin-right: 100px;
+  
   border: 1px solid #fff;
   box-shadow: 5px 5px 10px rgba(1 1 1 / 20%);
   border-radius: 5px;
@@ -151,6 +155,7 @@ textarea{
 }
 
 .footer{
+  margin-top: 10%;
   background-color:  #000;
   color: white;
   display: flex;
